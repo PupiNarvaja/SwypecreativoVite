@@ -1,0 +1,202 @@
+/* GENERAL */
+body .container {
+    max-width: 77.77rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* EL ESTUDIO  */
+.estudio--container {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 110px;
+}
+
+.estudio--container h2 {
+    text-align: center;
+    margin-bottom: 4.11rem;
+}
+
+.estudio--container .estudio--p {
+    padding: 4.44rem 3.05rem 5.55rem 3.05rem;
+    background-image: url(/src/assets/images/background/paragraph-background.png);
+    background-repeat: round;
+    background-size: cover;
+    min-height: 20.55rem;
+    max-width: 39.44rem;
+    margin: 0 auto 32px auto;
+    color: #fff;
+}
+
+/* SERVICIOS  */
+.servicios--container {
+    margin-bottom: 110px;
+}
+
+.servicios--container h2 {
+    text-align: center;
+    margin-bottom: 5.27rem;
+}
+
+.servicios--title{
+    min-width: 170px;
+}
+
+.servicios--container .servicios--wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 22.5px
+}
+
+.servicios--wrapper .card-1 {
+    background-image: url(../../../assets/images/background/homeServicio1.png);
+}
+
+.servicios--wrapper .card-2 {
+    background-image: url(../../../assets/images/background/homeServicio2.png);
+}
+
+.servicios--wrapper .card-3 {
+    background-image: url(../../../assets/images/background/homeServicio3.png);
+}
+
+.servicios--container .servicios--card {
+    min-width: 270px;
+    width: 21.5rem;
+    padding: 45px 60px;
+    background-repeat: round;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.servicios--card h3 {
+    font-family: Acumin Variable Concept;
+    font-size: 2.22rem;
+    font-weight: 400;
+    line-height: 2.22rem;
+    text-align: center;
+}
+
+.servicios--container .circle {
+    width: 8.44rem;
+    height: 8.44rem;
+    margin: 2.22rem 0 1.11rem 0;
+    border-radius: 100%;
+    background-color: var(--gray);
+    transition: all 300ms ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios--container .circle img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.servicios--container .circle:hover {
+    background-color: var(--white0-7);
+}
+
+.servicios--container p {
+    text-align: center;
+    width: 123%;
+}
+
+/* EL EQUIPO */
+.equipo--wrapper {
+    background-image: url(../../../assets/images/background/horizontalCurves.png);
+    background-size: 360px 725px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 11.11rem auto 0 auto;
+}
+
+body .equipo--container {
+    position: relative;
+    top: -50px;
+}
+
+.equipo--container h2 {
+    margin-bottom: 5.55rem;
+    text-align: center;
+}
+
+.equipo--container .users--container {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 40px 0;
+}
+
+.max-width-313 {
+    max-width: 17.38rem;
+    max-height: 17.38rem;
+    margin: 10px;
+}
+
+.max-width-313 img {
+    width: 100%;
+}
+
+/* CLIENTES */
+.clientes--container {
+    max-width: 1600px;
+    margin: 0 auto 50px auto;
+}
+
+.clientes--container h2 {
+    margin: 110px auto 90px auto;
+    text-align: center;
+}
+
+.clientes--container .carousel--container {
+    margin-bottom: 100px;
+}
+
+
+@media (min-width: 768px) {
+    .equipo--wrapper {
+        background-image: url(../../../assets/images/background/curves.png);
+        background-size: 106%;
+        background-position: 50% 75%;
+    }
+    .equipo--container .users--container {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 900px) {
+    /* SERVICIOS */
+    .servicios--container .servicios--wrapper {
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
+    .servicios--container h2 {
+        text-align: start;
+        padding-left: 1.33rem;
+    }
+    /* EL EQUIPO */
+    .equipo--container h2 {
+        text-align: end;
+        margin-right: 20px;
+    }
+    /* CLIENTES */
+    .clientes--container {
+        margin: 0 auto;
+    }
+    .clientes--container h2 {
+        text-align: start;
+    }
+}
+
+@media (min-width: 1200px) {
+    .estudio--container {
+        max-width: 66.11rem;
+    }
+}

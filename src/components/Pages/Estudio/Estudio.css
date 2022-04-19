@@ -1,0 +1,76 @@
+#estudio {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.principal--container {
+    max-width: 30.44rem;
+    margin: 0 auto;
+    min-height: 8.33rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 515px;
+}
+
+.text--container {
+    max-width: 45.38rem;
+    padding: 2.22rem;
+    background: linear-gradient(90deg, #EBE4E1 -47.52%, rgba(246, 238, 235, 0) 122.14%);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05));
+    border-radius: 5.55rem;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+
+.picture--image{
+    max-width: 11.11rem;
+    max-height: 11.11rem;
+    align-self: flex-end;
+    z-index: 1;
+}
+
+.picture--image img{
+    max-width: 11.55rem;
+    max-height: 11.55rem;
+}
+
+.mb-3_5{
+    margin-bottom: 3.5rem;
+}
+
+.mb-4_5{
+    margin-bottom: 4.5rem;
+}
+
+.h-335{
+    height: 335px;
+}
+
+.h-370{
+    height: 370px;
+}
+
+.logo--title{
+    width: 11.44rem;
+    margin: 0 0 0 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .principal--container{
+        height: 350px;
+        margin-bottom: 8rem;
+    }
+    .h-335{
+        height: 225px;
+    }
+    
+    .h-370{
+        height: 250px;
+    }
+}

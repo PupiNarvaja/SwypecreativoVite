@@ -1,0 +1,51 @@
+.main {
+    background-image: url(/src/assets/images/background/fondoPrincipalMobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 90vh;
+    min-height: 500px;
+}
+
+.main .main--container {
+    position: relative;
+    top: 176px;
+    display: flex;
+    justify-content: center;
+    max-width: 70.44rem;
+}
+
+.main .main--title--img {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 35.44rem;
+    height: auto;
+}
+
+.main .main--title {
+    font-family: Gobold Lowplus;
+    font-size: 6.6rem;
+    line-height: 6.6rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media (min-width: 500px) {
+    .main {
+        background-image: url(/src/assets/images/background/fondoPrincipal.jpg);
+    }
+}
+
+@media (min-width: 900px) {
+    .main {
+        min-height: 110vh;
+    }
+    .main .main--container {
+        justify-content: flex-start;
+    }
+    .main .main--title--img {
+        width: 100%;
+        margin: 0;
+    }
+}

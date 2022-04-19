@@ -1,0 +1,88 @@
+/* ----- Generales ----- */
+.equipo {
+    max-width: 68.33rem;
+    margin: 100px auto 0 auto;
+    width: 95%;
+}
+
+.equipo .equipoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    margin: 5rem 0;
+}
+
+.equipo .info {
+    margin: 0 15px;
+}
+
+.h-72 {
+    font-family: Gobold;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--turquoise);
+    margin: 2rem 0;
+}
+
+.equipo ul {
+    list-style: none;
+    max-width: 22rem;
+    margin: 0 auto;
+}
+
+.p-40 {
+    font-family: Acumin Variable Concept;
+    font-size: 2.22rem;
+    font-weight: 500;
+    line-height: 2.22rem;
+    text-align: left;
+    color: var(--black);
+}
+
+.equipo--shadow {
+    background: linear-gradient(90deg, #EBE4E1 -47.52%, rgba(246, 238, 235, 0) 122.14%);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05));
+    border-radius: 5.55rem;
+    padding: 10px 9px 16px 9px;
+    width: fit-content;
+}
+
+.equipo .inner--shadow  {
+    max-width: 22rem;
+    overflow: hidden;
+}
+
+.equipoContainer img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -0.65rem;
+} 
+    
+/* ---- Particulares ---- */
+/* --- Lucia --- */
+.lucia--container img {
+    margin: 0 0 -0.8rem -0.16rem;
+}
+
+@media (min-width: 768px) {
+    .equipo .equipoContainer {
+        flex-direction: row;
+        margin: -4.16rem 0;
+    }
+    .equipo ul {
+        margin: 0;
+    }
+    /* --- Nicolas y Lucia --- */
+    .equipo .nicolas--container,
+    .equipo .lucia--container {
+        flex-direction: row-reverse;
+    }
+    /* --- Lautaro --- */
+    .lautaro--container ul {
+        max-width: 27.77rem;
+    }
+}

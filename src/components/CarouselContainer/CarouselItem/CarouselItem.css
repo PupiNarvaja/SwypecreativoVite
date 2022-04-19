@@ -1,0 +1,104 @@
+.home__client {
+    min-width: 9rem;
+    width: 100%;
+}
+
+/* ---- phone carousel ---- */
+.max-width-374 {
+    max-width: 20.7rem;
+}
+.max-width-374 img {
+    width: 100%;
+}
+
+/* ---- BrandCarousel ---- */
+.brandCarousel {
+    width: 100%;
+}
+
+.brandCarousel__logo--container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 1.72rem;
+    max-width: 68rem;
+}
+
+.brandCarousel__logo--container picture {
+    margin: 10px 0;
+}
+
+.brandCarousel .brandCarousel__logo {
+    width: 100%;
+    min-width: 13.27rem;
+    min-height: 13.27rem;
+    height: 100%;
+}
+
+.brandCarousel__logo--container .shadow-box {
+    width: 100%;
+    padding: 0.33rem 0.77rem;
+}
+
+.brandCarousel__logo--container .inner--shadow {
+    max-width: 51.11rem;
+    min-height: 13.27rem;
+    padding: 25px 3.61rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.brandCarousel__images--container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.brandCarousel__images--container img {
+    width: 100%;
+    max-width: 26.88rem;
+    margin: 10px 0;
+}
+
+/* ---- CommentsCarousel ---- */
+.CommentsCarousel--container {
+    max-width: 45.38rem;
+    height: fit-content;
+    padding: 2.22rem;
+    background: linear-gradient(90deg, #EBE4E1 -47.52%, rgba(246, 238, 235, 0) 122.14%);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05));
+    border-radius: 3.88rem;
+}
+
+.clientes .title-72 {
+    font-family: Gobold;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    color: var(--turquoise);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4.72rem;
+}
+
+.strong {
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    .brandCarousel__logo--container {
+        margin-bottom: 4.72rem;
+        flex-flow: row nowrap;
+    }
+    .brandCarousel .brandCarousel__logo--container picture {
+        margin: auto 2.5rem auto 0;
+    }
+    .brandCarousel__images--container img {
+        margin: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+.carousel--container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.splide__track {
+    max-width: 87%;
+    margin: 0 auto;
+}
+.splide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.splide__arrow {
+    background: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.splide__arrow img {
+    max-width: 4.44rem;
+    max-height: 3.72rem;
+}
+.splide .splide__arrow--next {
+    position: absolute;
+    right: 5px;
+}
+.splide .splide__arrow--prev {
+    position: absolute;
+    left: 5px;
+}
+
+@media (min-width: 460px) {
+    .carousel--container {
+        width: 95%;
+    }
+}

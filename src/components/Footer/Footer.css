@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    background-image: url(/src/assets/images/background/footerMobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    min-height: 41.66rem;
+    max-height: 55.55rem;
+    height: 100%;
+}
+
+.footer .footer--container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 3.66rem;
+}
+
+.footer--container h2 {
+    margin: 0 auto 5.55rem auto;
+}
+
+.footer__contactDivs {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.footer--container .footer__bubble {
+    background-image: url(/src/assets/images/background/contact-background.png);
+    background-repeat: round;
+    height: 9.44rem;
+    min-height: 9.44rem;
+    width: 22.77rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 1.66rem 4.166rem;
+}
+
+.footer--container .contact--div {
+    display: flex;
+    align-items: center;
+}
+
+.footer--container .contact--div a {
+    display: flex;
+    align-items: center;
+}
+
+.contact--div img {
+    width: 2.6rem;
+}
+
+.footer--container p {
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+@media (min-width: 500px) {
+    .footer {
+        background-image: url(/src/assets/images/background/footer.jpg);
+    }
+}
+
+@media (min-width: 768px) {
+    .footer .footer--container {
+        padding-top: 11.66rem;
+    }
+    .footer__contactDivs {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1300px) {
+    .footer .footer--container {
+        padding-top: 19.66rem;
+    }
+    .footer .footer__bubble {
+        height: unset;
+    }
+}
